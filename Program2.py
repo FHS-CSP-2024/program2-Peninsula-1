@@ -50,10 +50,6 @@
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
 
-name = input('What is your name? ')
-print(name)
-print(name)
-
 
 ## Problem 2 ##
 #Please write a script that: 
@@ -61,8 +57,7 @@ print(name)
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
 
-name = input('What is your name? ')
-print('!' + name + '!' + name + '!')
+
 ## Problem 3 ##
 #Please write a script that: 
 # - Asks for the user's name and address. 
@@ -73,25 +68,12 @@ print('!' + name + '!' + name + '!')
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
 
-fname = input('What is your FIRST name?\n')
-lname = input('What is your LAST name?\n')
-saddress = input('What is your street address?\n')
-cap = input('What is your city and postal code?\n')
-print('First name: ' + fname)
-print('Last name: ' + lname)
-print('Street address: ' + saddress)
-print('City and Postal Code: ' + cap)
 
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
 
-worda = input('Type a word! ')
-wordb = input('Type another word! ')
-wordc = input('Type one more word! ')
-
-print(worda + '-' + wordb + '-' + wordc)
 
 ## Problem 5 ##
 #Please write a script that: 
@@ -104,9 +86,3 @@ print(worda + '-' + wordb + '-' + wordc)
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
-
-name = input('Type in a name: ')
-year = input('Type in a year: ')
-print(name + 'was a young lad from London in ' + year)
-print('One day, ' + name + 'went out shopping to their favorite store.')
-print('When suddenly, ' + name + ' was attacked by an evil wizard!')
